@@ -1,0 +1,8 @@
+Step 1 : Generate the gsheet credentials from here.  https://gspread.readthedocs.io/en/latest/oauth2.html
+Step 2 : Replace the contents of the 'gsheet_credentials.json' file with the ones generated from above.
+Step 3 : Append the required training data in the 'data' folder. For the sake of simplicity, a few image have been added
+         to understand the file structure for the same. The data has been divided into test, train and validation folders.
+         Each of the test and train folders have subfolders equal to the number of classes that are being classified.
+
+
+P.S. The master model folder contains the model that is the one from where the model is loaded before training. 
